@@ -1,0 +1,26 @@
+# requirements.txt - For a robust backend and a local test UI
+
+# --- Core API Framework & Server ---
+fastapi
+uvicorn[standard]
+gunicorn
+python-multipart
+
+# --- Data Processing & AI ---
+pandas
+openai
+pdfplumber
+openpyxl
+
+# --- NEW: Report Generation ---
+# A library for creating PDF documents from code.
+fpdf2
+# The recommended engine for writing styled Excel files with pandas.
+XlsxWriter
+
+# --- Utilities ---
+python-dotenv
+
+# --- For the local testing UI (app.py) ---
+streamlit
+requests

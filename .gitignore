@@ -1,0 +1,21 @@
+# .gitignore
+
+# --- Secrets ---
+# Never commit the .env file to version control.
+.env
+
+# --- Python ---
+# Ignore the virtual environment folder, which is specific to your local machine.
+venv/
+/venv/
+# Ignore Python's temporary cache and compiled files.
+__pycache__/
+*.pyc
+
+# --- IDE/Editor specific files ---
+.vscode/
+.idea/
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
