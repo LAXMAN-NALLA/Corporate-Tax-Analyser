@@ -12,7 +12,7 @@ workers = int(os.environ.get("WEB_CONCURRENCY", 3))
 worker_class = "uvicorn.workers.UvicornWorker"
 
 # Timeout setting for long-running AI calls
-timeout = 120
+timeout = 180
 
 # Logging configuration
 loglevel = os.environ.get("LOG_LEVEL", "info")
